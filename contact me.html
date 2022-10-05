@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My contact information</title>
+</head>
+<body>
+    <h1>My contact information</h1>
+    <p>Phone No. : 123456789</p>
+    <p>Email: abc123@gmail.com</p>
+    <p>Home Adress: 1234 ABC Street</p>
+    <hr>
+
+<!--creating form with different inputs and labels
+-->
+    <form action="mailto:info@londonappbrewery.com" method="post">
+        <!-- action attribute tells the form what to do with the data. In this case, once user clicks submit button, it will open up new window to send an email to info@londonappbrewery.com. Then, method attribute with value post tells it to post the user input data to our mailto form. Yes, this doesn't make sense right now, wait till JS later-->
+        <label>Your Name:</label>
+        <input type="text" name="yourName" value=""> <br>
+        <label>Your email:</label>
+        <input type="email" name="yourEmail"> <br>
+        <label>Your Message:</label> <br>
+        <textarea name="name" rows="10" cols="30"></textarea>
+        <input type="submit" name="">
+    </form>
+</body>
+</html>
